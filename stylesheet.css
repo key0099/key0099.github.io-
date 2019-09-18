@@ -11,6 +11,7 @@ a {
   width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
+    text-align: center;
 }
 
 .top-wrapper {
@@ -119,31 +120,6 @@ header {
 .heading h2 {
   font-weight: normal;
 }
-
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 90px;
-  width: 100%;
-  color: white;
-}
-
-.txt-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 20px;
-  font-size: 12px;
-  color: #b3aeb5;
-}
-
 .heading h3 {
   font-weight: normal;
 }
@@ -167,9 +143,6 @@ header {
   box-shadow: none;
 }
 
-footer img {
-  width: 125px;
-}
 
 footer p {
   color: #b3aeb5;
