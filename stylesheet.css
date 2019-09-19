@@ -15,11 +15,13 @@ a {
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
   background-image: url(https://cdn.pixabay.com/photo/2017/04/20/14/11/glowing-2245832_960_720.jpg);
   background-size: cover;
+  height: 400px;
+  padding: 180px 0 100px 0;
   color: white;
   text-align: center;
+  z-index: 0;
 }
 
 .top-wrapper h1 {
@@ -78,15 +80,6 @@ header {
   z-index: 10;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
-.header-left {
-  float: left;
-}
-
 .header-right {
   float: right;
   background-color: rgba(255, 255, 255, 0.3);
@@ -103,23 +96,12 @@ header {
   color: white;
   display: block;
 }
-.heading {
-  padding-top: 60px;
-  padding-bottom: 30px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-.heading h3 {
-  font-weight: normal;
-}
 
 .main {
   padding: 20px 0 120px 0;
   background-color: #c0c0c0;
   color: white;
+  height: 400px;
 }
 .message1{
   text-align: center;
